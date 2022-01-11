@@ -1,0 +1,382 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: purple;
+}
+
+.photos {
+  margin-bottom: 2rem;
+}
+
+.mySlides {
+  display:none;
+}
+
+label {
+  margin-top: .3rem;
+  margin-right: 1rem;
+}
+
+.card-img {
+  display: none;
+}
+
+.card-body:hover {
+  cursor: pointer;
+}
+
+.card-body a {
+  text-decoration: none;
+  color: black;
+}
+
+.card-title {
+  font-size: 3rem;
+}
+
+.card-text {
+  font-size: 2rem;
+}
+
+.logo.rsoPage img {
+  display: block;
+  margin-top: 2rem;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height:150px;
+  border: 3px solid rgb(88, 86, 86);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.23);
+}
+
+h1.rsoPage {
+    margin: 2rem 0 .5rem 3.5rem;
+    font-size: 20px;
+}
+
+.center.rsoPage {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.into .col {
+  flex-grow: 12;
+}
+
+.rsoInfo{
+  display: block;
+}
+
+.rsoInfo p {
+  margin: 16px 60px;
+}
+
+.container.rsoPage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+h2.rsoPage {
+  font-size: 35px;
+  display: inline;
+}
+
+.addEvent {
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+}
+
+.addEvent h2.rsoPage{
+  font-size: 120%;
+}
+
+button.rsoPage {
+  display: inline;
+  margin-bottom: 1rem;
+}
+
+section {
+  flex: 1;
+}
+
+.card.rsoPage {
+  flex-direction: column;
+  flex: 0 0 400px;
+  background-color: white;
+  margin: .5rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16), 0 1px 3px rgba(0, 0, 0, 0.23);
+}
+
+.card.rsoPage img {
+  border-radius: 10px 10px 0 0;
+  width: 400px;
+}
+
+.card.rsoPage > p {
+  padding: .5rem 1rem;
+}
+
+.eventCard > div {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.eventCard {
+  flex-basis: 0;
+  flex-grow: 1;
+  padding: 1em;
+}
+
+h3.rsoPage {
+  font-size: 23px;
+  padding: .5rem 1rem 0 1rem;
+}
+
+div.img_container {
+  display:inline-block;
+  text-align:center;
+}
+
+.heartButton {
+  bottom:0px;
+  right:10px;
+  width: 40px;
+  height:40px;
+}
+
+h4.rsoPage {
+  font-size: 16px;
+  padding: .5rem 1rem 0 1rem;
+  color: rgb(136, 42, 136);
+}
+
+.column.rsoPage {
+  padding: 10px;
+}
+
+
+/*----------------Event Page---------------------*/
+
+.mySlides{
+  display: block;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.event_container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.eventInfo{
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 33%;
+}
+.responsibleRSO{
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 33%;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.16),0 1px 3px rgba(0,0,0,0.23);
+}
+.comments{
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 33%;
+}
+.event_logo {
+  display: inline;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  margin-left: 5%;
+  border-radius: 50%;
+  width: 100px;
+  height:100px;
+  border: 3px solid rgb(88, 86, 86);
+}
+.event_h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: medium;
+}
+.rs {
+  margin-top: .5rem;
+  margin-left: .5rem;
+  font-size: medium;
+}
+.cm{
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+  font-size: medium;
+}
+.rs_name {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 5%;
+  font-size: medium;
+
+}
+
+.event_footer{
+  color: white;
+  background-color: purple;
+}
+.event_footer a{
+  text-decoration: none;
+  color: white;
+}
+.event_footer p{
+  margin: 0;
+  line-height: 1.25;
+}
+.event_footer p:last-child{
+  padding-top: 8px;
+}
+
+/*----------------------------------------*/
+
+/* About us style */
+.about {
+  font-family: "Calibri", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.about-us {
+  font-size: 18px;
+  padding: 5px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.about h1 {
+  font-size: 2.5em;
+  color: purple;
+  text-align: center;
+}
+
+.about img {
+  width: 75%;
+  height: auto;
+}
+
+/* login style */
+.login form {
+  text-align: center;
+  border: 5px solid #f1f1f1;
+  padding: 20px;
+}
+
+.login h1 {
+  text-align: center;
+}
+
+@media (min-width: 598px) {
+  .card-title {
+    font-size: 2.7rem;
+  }
+
+  .card-text {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-img {
+    display: block;
+    width: 100%;
+  }
+  .card-title {
+    font-size: 2.3rem;
+  }
+
+  .card-text {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .addEvent h2.rsoPage{
+    margin-left: 14rem;
+  }
+
+  .logo {
+    width: 30%;
+    margin-left: 14rem;
+  }
+
+  .rsoInfo {
+    width: 50%;
+  }
+
+  .logo.rsoPage img {
+    display: block;
+    margin-top: 5rem;
+    border-radius: 50%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    width: 250px;
+    height:250px;
+    border: 3px solid rgb(88, 86, 86);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.23);
+}
+
+  .rsoInfo p {
+    font-size: 120%;
+  }
+
+  h1.rsoPage {
+    font-size: 200%;
+    margin: 5rem 0 .5rem 3.5rem;
+    font-size: 25px;
+    text-align: left;
+  }
+  .addEvent h2.rsoPage{
+    font-size: 200%;
+  }
+
+  .center.rsoPage {
+    margin: auto;
+    width: 50%;
+    padding: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-title {
+    font-size: 2.1rem;
+  }
+
+  .card-text {
+    font-size: 1.4rem;
+  }
+}
+
+  @media (min-width: 1200px) {
+  .card-title {
+    font-size: 2rem;
+  }
+  .card-text {
+    font-size: 1rem;
+  }
+  .card-title {
+    font-size: 1.8rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+}

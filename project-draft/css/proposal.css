@@ -1,0 +1,36 @@
+body {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    height: 600px;
+    width: 300px;
+    
+}
+
+.img{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.answer{
+    background-color: lightgreen;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.answer:hover {
+    opacity: 1;
+}
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Haochen_He, Russell Sean Eng, Vic Zhang, Xiao Xiao">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Sign in</title>
+    <link rel="shortcut icon" type="image/png" href="img/android-chrome-512x512.png" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container-fluid ">
+          <a class="navbar-brand text-light" href="index.html">UW RSO Events</a>
+          <div>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link text-light" aria-current="page" href="about-us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="sign-in.html">Sign In</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="login">
+        <h1>Sign in</h1><br>
+
+        <main>
+            <form id="login_form">
+                <label for="Uname">
+                    <b>User Name</b>
+                </label>
+                <input type="text" name="username" id="username_input" placeholder="User name">
+                <br><br>
+
+                <label for="code">
+                    <b>Password</b>
+                </label>
+                <input type="password" name="password" id="password_input" placeholder="Password">
+                <br><br>
+
+                <input aria-label="click to log in" type="button" name="login" id="login_confirm" value="Sign in">
+                <br><br>
+
+                <input type="checkbox" id="check_confirm">
+                <span>Remember me on this device</span>
+                <br><br>
+
+                I forgot my <a href="#">Password</a>:(
+            </form>
+        </main>
+
+    </div>
+
+    <footer class="event_footer">
+      <div class="container">
+        <p><a href="haochh2@uw.edu"><span class="material-icons">email</span> haochh2@uw.edu</a></p>
+        <p><a href="tel:203-583-2512"><span class="material-icons">phone</span> 203-583-2512</a></p>
+        <p>&copy; Website Created By: Haochen_He, Russell Sean Eng, Vic Zhang, Xiao Xiao</p>
+      </div>
+    </footer>
+
+</body>
+
+</html>
